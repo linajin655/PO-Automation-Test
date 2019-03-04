@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testproj]">
+  <parameter name="a" value="wutest"/>
+  <parameter name="b" value="you are good!"/>
+  <test name="testDemo1(failed)">
+    <parameter name="a" value="wutest"/>
+    <parameter name="b" value="you are good!"/>
+    <classes>
+      <class name="TestDemo">
+        <methods>
+          <include name="testCase1"/>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- TestDemo -->
+    </classes>
+  </test> <!-- testDemo1(failed) -->
+</suite> <!-- Failed suite [testproj] -->
